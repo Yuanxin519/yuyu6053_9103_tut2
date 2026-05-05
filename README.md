@@ -1,33 +1,46 @@
-# here is the title
-## this is subtitle
-### 111
-#### 2222
+# Quiz 9
 
-**Bold Text** or __Bold Text__
-*Italic Text* or _Italic Text_
+## Part 1: Imaging Technique Inspiration
 
-**Hello World** 
-__Hello World__
-*Hello World*
+### Reaction-Diffusion Patterns (Turing Patterns)
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
-    - subitem 2.2.1
+In 1952, Alan Turing proposed reaction-diffusion systems, a technique that simulates how two virtual chemical substances interact and diffuse on a surface, creating organic, ever-evolving textures. These textures evoke a sense of change and mystery. Similar patterns exist in nature, such as animal skin, coral, and the growth of organisms. What attracts me most about this technique is its regularity and complexity. It uses only the simplest geometric shapes to create mysterious images. These regular geometric patterns are well-suited for code control.
 
+---
 
-[Link Text](https://www.google.com)
+**Example 1 — Animated Turing Pattern Simulation**
 
+![Animated reaction diffusion Turing pattern showing evolving organic black and white shapes](design-whirlpool-movement-background-vector-2736723.webp)
 
-[this is a link](https://github.com/Yuanxin519/yuyu6053_9103_tut2?tab=readme-ov-file)
+*Reaction-diffusion*
 
-![An image of a cat](https://placecats.com/200/300)
+---
 
-![it is image of github](readmeImages\1060bbc9daefb1d96d4b0538353a0848.png)
+**Example 2 — Natural Turing Patterns on Pufferfish Skin**
 
-```
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
+![Close up photograph of pufferfish skin showing natural Turing reaction diffusion dot patterns](77a21ca8ce2a68082945b910f495b076.jpg)
+
+*Pufferfish skin*
+
+---
+
+## Part 2: Coding Technique Exploration ##
+
+### Pixel Array Manipulation in p5.js ###
+
+The reaction-diffusion simulation works by accessing every pixel on the canvas each frame and applying the Gray-Scott equations. In p5.js, this is primarily implemented using the loadPixels() and updatePixels() functions, which directly read and write each pixel on the canvas. A new color is calculated based on these values ​​and then written to it. This process is repeated frame by frame, causing the image to continuously change as if it's growing, similar to the idea of ​​nested loops.
+
+---
+
+**Coding Technique**
+
+![Daniel Shiffman Coding Train reaction diffusion p5js sketch showing evolving black and white organic patterns in browser]({D04F6CE8-2D14-488C-B3E7-BF55BAA5A302}.png)
+
+*Coding Challenge #13: Reaction Diffusion Algorithm in p5.js*
+
+---
+
+**Example Implementation**
+
+- **Video walkthrough:** [Coding Challenge #13 — Reaction Diffusion in p5.js](https://www.youtube.com/watch?v=BV9ny785UNc) — Daniel Shiffman, The Coding Train
+- **p5.js reference — loadPixels() :** [p5js.org/reference/p5/loadPixels](https://p5js.org/reference/p5/loadPixels/)
