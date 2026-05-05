@@ -1,4 +1,4 @@
-# Quiz 9
+# Quiz 8
 
 ## Part 1: Imaging Technique Inspiration
 
